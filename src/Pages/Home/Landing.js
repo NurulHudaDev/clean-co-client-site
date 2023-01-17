@@ -7,10 +7,10 @@ const Landing = () => {
             <div class="hero lg:h-[60vh] bg-accent mt-16">
                 <div class="hero-content flex-col lg:flex-row px-8 p-0">
                     <div>
-                        <p className='text-xl'>Best Quality</p>
-                        <h1 class="text-5xl font-bold max-w-xl">Professional Cleaning Service</h1>
-                        <p class="py-6 max-w-xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
-                        <button class="btn btn-primary">Get Started</button>
+                        <p className='text-xl' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Best Quality</p>
+                        <h1 class="text-5xl font-bold max-w-xl" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Professional Cleaning Service</h1>
+                        <p class="py-6 max-w-xl" data-aos="fade-right" data-aos-duration="900" data-aos-delay="600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                        <button class="btn btn-primary" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="1300">Get Started</button>
                     </div>
                     <div className='h-[60vh]'>
                         <img src={BucketGirl} class="h-full" alt='' />
